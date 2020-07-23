@@ -104,7 +104,7 @@ html {
 #home {
   height: 100vh;
   min-height: 500px;
-  background: url(../images/bg.jpg) no-repeat center;
+  background: url(../images/papyrus.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -127,14 +127,38 @@ html {
   margin-bottom: 60px;
 }
 
-#home .content h1::after {
+.typed-text {
+  color: #dd7732;
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  animation: blink 1s infinite
+}
+
+.cursor.typing {
+  animation: none
+}
+
+@keyframes blink {
+  0% { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% {background-color: transparent; }
+  99% {background-color: transparent; }
+  100% { background-color: #ccc }
+}
+
+/* #home .content h1::after {
   content: "Adam";
   animation: textanim 10s linear infinite;
 }
 
 @keyframes textanim {
   25% {
-    content: "A Developer"
+    content: "A Programmer"
   }
   50% {
     content: "An Artist"
@@ -142,7 +166,7 @@ html {
   75% {
     content: "An Engineer"
   }
-}
+} */
 
 .sm a {
   color: #fff;
@@ -172,9 +196,7 @@ html {
   transition: .2s linear;
 }
 
-#home .buttons a:hover,
-#home .buttons a:nth-child(2)
-{
+#home .buttons a:hover {
   background-color: #48dbfb;
   color: #fff;
 }
@@ -291,23 +313,27 @@ section {
 }
 
 .css:after {
-  width: 80%;
+  width: 70%;
 }
 
 .js:after {
   width: 70%;
 }
 
-.php:after {
+.py:after {
   width: 60%;
 }
 
-.mysql:after {
+.java:after {
   width: 90%;
 }
 
-.cs:after {
+.react:after {
   width: 80%;
+}
+
+.flutter:after {
+  width: 60%;
 }
 
 section.dark {
@@ -533,7 +559,7 @@ section.dark .section-title::after {
 }
 
 footer {
-  background: url(../images/bg.jpg) no-repeat center;
+  background: url(../images/papyrus.jpg) no-repeat center;
   color: #fff;
   padding: 80px 0;
   text-align: center;
