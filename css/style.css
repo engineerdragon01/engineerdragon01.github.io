@@ -104,7 +104,7 @@ html {
 #home {
   height: 100vh;
   min-height: 500px;
-  background: url(../images/papyrus.jpg) no-repeat center;
+  background: url(../images/space.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -120,11 +120,18 @@ html {
 #home .content {
   width: 100%;
   color: #fff;
+  padding-bottom: 70px;
+  overflow: hidden;
 }
 
 #home .content h1 {
   font-size: 60px;
   margin-bottom: 60px;
+}
+
+#home i {
+  font-size: 50px;
+  transform: translateY(80px);
 }
 
 .typed-text {
@@ -309,7 +316,7 @@ section {
 }
 
 .html:after {
-  width: 90%;
+  width: 85%;
 }
 
 .css:after {
@@ -321,11 +328,11 @@ section {
 }
 
 .py:after {
-  width: 60%;
+  width: 85%;
 }
 
 .java:after {
-  width: 90%;
+  width: 85%;
 }
 
 .react:after {
@@ -333,7 +340,11 @@ section {
 }
 
 .flutter:after {
-  width: 60%;
+  width: 70%;
+}
+
+.autocad:after {
+  width: 85%;
 }
 
 section.dark {
@@ -559,7 +570,7 @@ section.dark .section-title::after {
 }
 
 footer {
-  background: url(../images/papyrus.jpg) no-repeat center;
+  background: url(../images/space.jpg) no-repeat center;
   color: #fff;
   padding: 80px 0;
   text-align: center;
