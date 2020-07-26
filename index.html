@@ -24,7 +24,7 @@
     <!-- Navbar -->
     <nav class="navbar">
       <div class="inner-width">
-        <a href="/" class="logo"></a>
+        <a href="#home" class="logo"></a>
         <button class="menu-toggler">
           <span></span>
           <span></span>
@@ -34,7 +34,7 @@
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#services">Services</a>
-          <a href="#education">Education</a>
+          <a href="#education">Experience</a>
           <a href="#works">Works</a>
           <a href="#contact">Contact</a>
         </div>
@@ -208,7 +208,9 @@
             <h4>Aug 2019 - May 2023</h4>
             <h3>UC Berkeley, Bachelors of Science - Bioengineering</h3>
             <p>
-              Concentration: Synthetic and Computational Biology (Computer Science)
+              <strong>Concentration</strong>: Synthetic and Computational Biology (Computer Science)
+              <br>
+              <strong>Related Coursework</strong>: Introduction to Computer Programming | Data Structures | Multivariable Calculus | Linear Algebra and Differential Equations | Intro to Biomedicine for Engineers | Intro to Plant Sciences | Chemical Structure and Reactivity | Organic Chemistry Laboratory | Physics for Scientists and Engineers
             </p>
           </div>
 
@@ -216,7 +218,11 @@
             <h4>Jun 2020 - Sep 2020</h4>
             <h3>Bayer, Quality Control Impurity Analysis/ELISA Intern</h3>
             <p>
-
+              <ul>
+                <li>Drafted financial data spreadsheets and presentations for company executives and project managers</li>
+                <li>Reviewed and revised research procedures and completed annual report detailing essential chemical components</li>
+                <li>Received professional training in Good Manufacturing Practices and medical Standard Operating Procedures</li>
+              </ul>
             </p>
           </div>
 
@@ -224,7 +230,11 @@
             <h4>Jul 2019 - Aug 2019</h4>
             <h3>Google, Student Programmer (Computer Science Summer Institute)</h3>
             <p>
-
+              <ul>
+                <li>Learned software project management and design principles as well as fundamentals of Full-Stack Development</li>
+                <li>Received mentorship from lead software engineers at Google Headquarters</li>
+                <li>Developed a WebApp and gave a live project presentation to Google executives and employees</li>
+              </ul>
             </p>
           </div>
 
@@ -232,15 +242,23 @@
             <h4>Jun 2018 - Aug 2018</h4>
             <h3>Elk Grove Unified School District, Technology Operations Intern</h3>
             <p>
-
+              <ul>
+                <li>Organized teams and helped manage and oversee multimillion dollar construction sites for more than 30 schools</li>
+                <li>Managed professional content for district website, piloted Phantom 4 Pro Drones, and designed website user interface</li>
+                <li>Modeled and digitally restored blueprints of school facilities using Computer Aided Drawing on a daily basis</li>
+              </ul>
             </p>
           </div>
 
           <div class="block">
             <h4>Jan 2012 - Jun 2019</h4>
-            <h3>Sungrove Church, Volunteer Sunday School Teacher</h3>
+            <h3>Sungrove Church, Lead Volunteer Sunday School Teacher</h3>
             <p>
-              
+              <ul>
+                <li>Led team of volunteer Sunday School Teachers in a classroom with kids in 2nd through 5th graders</li>
+                <li>Met weekly to develop and create curriculum and lesson content for each Sunday session</li>
+                <li>Created games, bible lessons, and problem-management systems for future volunteers to succeed</li>
+              </ul>
             </p>
           </div>
 
@@ -252,23 +270,24 @@
     <!-- Works -->
     <section id="works" class="dark">
       <div class="inner-width">
-        <h1 class="section-title">Works</h1>
+        <h1 class="section-title">Projects I'm Working On</h1>
         <div class="works">
-          <a href="images/works/1.jpg" class="work">
+
+          <div id="projOne" class="work">
             <img src="images/works/1.jpg" alt="">
             <div class="info">
               <h3>Work Title</h3>
               <div class="cat">Music, Headset</div>
             </div>
-          </a>
+          </div>
 
-          <a href="images/works/2.jpg" class="work">
+          <div id="projTwo" class="work">
             <img src="images/works/2.jpg" alt="">
             <div class="info">
               <h3>Work Title</h3>
               <div class="cat">Music, Headset</div>
             </div>
-          </a>
+          </div>
 
           <a href="images/works/3.jpg" class="work">
             <img src="images/works/3.jpg" alt="">
@@ -306,6 +325,26 @@
       </div>
     </section>
 
+    <!-- Modals -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Modal Header</h2>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the Modal Body</p>
+          <p>Some other text...</p>
+        </div>
+        <div class="modal-footer">
+          <h3>Modal Footer</h3>
+        </div>
+      </div>
+
+    </div>
+
     <!-- Contact -->
     <section id="contact">
       <div class="inner-width">
@@ -327,13 +366,13 @@
           </div>
         </div>
 
-        <form class="contact-form" action="#">
+        <!-- <form class="contact-form" action="#">
           <input type="text" class="nameZone" placeholder="Your Full Name">
           <input type="email" class="emailZone" placeholder="Your Email">
           <input type="text" class="subjectZone" placeholder="Subject">
           <textarea class="messageZone" placeholder="Message"></textarea>
           <input type="submit" value="Send Message" class="btn">
-        </form>
+        </form> -->
       </div>
     </section>
 
@@ -341,7 +380,7 @@
     <footer>
       <div class="inner-width">
         <div class="copyright">
-          &copy; 2020 | Designed By <a href="#">Adam Chois</a>
+          &copy; 2020 | Created & Designed By <a href="#">Adam Chois</a>
         </div>
         <div class="sm">
           <a href="https://www.instagram.com/atom.chois/" class="fab fa-instagram" target="_blank"></a>
@@ -354,5 +393,6 @@
     <!-- Go Top BTN -->
     <button class="goTop fas fa-arrow-up"></button>
     <script src="js/typing.js"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>
