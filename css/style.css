@@ -482,7 +482,7 @@ section.dark .section-title::after {
 }
 
 .work:hover img {
-  transform: scale(1.6) rotate(24deg);
+  transform: scale(1.4);
 }
 
 .work:hover::before,
@@ -564,6 +564,10 @@ section.dark .section-title::after {
 .modal-body a:hover {
   background-color: blue;
   color: white;
+}
+
+.modal-body h4 {
+  text-align: center;
 }
 
 /* Modal Content/Box */
