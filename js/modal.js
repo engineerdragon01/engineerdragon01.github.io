@@ -5,6 +5,9 @@ var modalThree = document.getElementById("modalThree");
 var modalFour = document.getElementById("modalFour");
 var modalFive = document.getElementById("modalFive");
 var modalSix = document.getElementById("modalSix");
+var modalSeven = document.getElementById("modalSeven");
+var modalEight = document.getElementById("modalEight");
+var modalNine = document.getElementById("modalNine");
 
 // Get the image id that opens the modal
 var projOne = document.getElementById("projOne");
@@ -13,6 +16,9 @@ var projThree = document.getElementById("projThree");
 var projFour = document.getElementById("projFour");
 var projFive = document.getElementById("projFive");
 var projSix = document.getElementById("projSix");
+var projSeven = document.getElementById("projSeven");
+var projEight = document.getElementById("projEight");
+var projNine = document.getElementById("projNine");
 
 // Get the <span> element that closes the modal
 var spanOne = document.getElementsByClassName("close")[0];
@@ -21,6 +27,9 @@ var spanThree = document.getElementsByClassName("close")[2];
 var spanFour = document.getElementsByClassName("close")[3];
 var spanFive = document.getElementsByClassName("close")[4];
 var spanSix = document.getElementsByClassName("close")[5];
+var spanSeven = document.getElementsByClassName("close")[6];
+var spanEight = document.getElementsByClassName("close")[7];
+var spanNine = document.getElementsByClassName("close")[8];
 
 // When the user clicks on the image, open the modal
 projOne.onclick = function() {
@@ -59,6 +68,24 @@ projSix.onclick = function() {
   modalSix.style.alignContent = "center";
 }
 
+projSeven.onclick = function() {
+  modalSeven.style.display = "flex";
+  modalSeven.style.justifyContent = "center";
+  modalSeven.style.alignContent = "center";
+}
+
+projEight.onclick = function() {
+  modalEight.style.display = "flex";
+  modalEight.style.justifyContent = "center";
+  modalEight.style.alignContent = "center";
+}
+
+projNine.onclick = function() {
+  modalNine.style.display = "flex";
+  modalNine.style.justifyContent = "center";
+  modalNine.style.alignContent = "center";
+}
+
 // When the user clicks on <span> (x), close the modal
 spanOne.onclick = function() {
   modalOne.style.display = "none";
@@ -84,6 +111,18 @@ spanSix.onclick = function() {
   modalSix.style.display = "none";
 }
 
+spanSeven.onclick = function() {
+  modalSeven.style.display = "none";
+}
+
+spanEight.onclick = function() {
+  modalEight.style.display = "none";
+}
+
+spanNine.onclick = function() {
+  modalNine.style.display = "none";
+}
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modalOne) {
@@ -98,5 +137,11 @@ window.onclick = function(event) {
     modalFive.style.display = "none";
   } else if (event.target == modalSix) {
     modalSix.style.display = "none";
+  } else if (event.target == modalSeven) {
+    modalSeven.style.display = "none";
+  } else if (event.target == modalEight) {
+    modalEight.style.display = "none";
+  } else if (event.target == modalNine) {
+    modalNine.style.display = "none"
   }
 }
