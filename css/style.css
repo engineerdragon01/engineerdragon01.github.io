@@ -312,19 +312,19 @@ section {
 }
 
 .html:after {
-  width: 85%;
+  width: 90%;
 }
 
 .css:after {
-  width: 70%;
+  width: 85%;
 }
 
 .js:after {
-  width: 70%;
+  width: 85%;
 }
 
 .py:after {
-  width: 85%;
+  width: 90%;
 }
 
 .java:after {
@@ -332,15 +332,15 @@ section {
 }
 
 .react:after {
-  width: 80%;
+  width: 85%;
 }
 
 .flutter:after {
-  width: 70%;
+  width: 80%;
 }
 
 .autocad:after {
-  width: 85%;
+  width: 90%;
 }
 
 section.dark {
