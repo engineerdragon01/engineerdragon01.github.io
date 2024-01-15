@@ -536,6 +536,7 @@ section.dark .section-title::after {
   /* background: linear-gradient(to bottom, #e1e1e1, #fff, #e1e1e1); */
   color: #000;
   text-align: center;
+  border-radius: 5px, 5px, 0px, 0px;
 }
 
 .modal-header h2 {
@@ -559,6 +560,7 @@ section.dark .section-title::after {
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+  border-radius: 6px;
 }
 
 .modal-body p {
@@ -571,18 +573,19 @@ section.dark .section-title::after {
 .modal-body a {
   display: flex;
   justify-content: center;
-  color: blue;
-  border: 1px solid blue;
+  color: #48dbfb;
+  border: 1px solid #48dbfb;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 40%;
   margin-right: 40%;
   margin-bottom: 20px;
   transition: .3s linear;
+  border-radius: 6px;
 }
 
 .modal-body a:hover {
-  background-color: blue;
+  background-color: #48dbfb;
   color: white;
 }
 
@@ -593,16 +596,18 @@ section.dark .section-title::after {
 /* Modal Content/Box */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: #555;
   margin: auto;
   padding: 0;
   border: 1px solid #888;
   width: 550px;
-  height: 90%;
+  height: 60%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   animation-name: animatetop;
   animation-duration: 0.4s;
   overflow: auto;
+  border-radius: 6px;
+  color:#ccc
 }
 
 /* Add Animation */
