@@ -247,8 +247,9 @@ section {
 
 .about-pic {
   width: 200px;
-  border-radius: 50%;
+  border-radius: 5px;
   margin-right: 100px;
+  box-shadow: 5px 5px 5px 5px grey;
 }
 
 .about-text {
@@ -312,35 +313,51 @@ section {
 }
 
 .html:after {
-  width: 90%;
+  width: 75%;
 }
 
 .css:after {
-  width: 85%;
+  width: 50%;
 }
 
 .js:after {
-  width: 85%;
+  width: 50%;
 }
 
 .py:after {
-  width: 90%;
+  width: 75%;
 }
 
 .java:after {
-  width: 85%;
+  width: 75%;
 }
 
 .react:after {
-  width: 85%;
+  width: 50%;
 }
 
 .cpp:after {
-  width: 80%;
+  width: 50%;
 }
 
-.autocad:after {
-  width: 90%;
+.sql:after {
+  width: 50%;
+}
+
+.bash:after {
+  width: 75%;
+}
+
+.springBoot:after {
+  width: 25%;
+}
+
+.vue:after {
+  width: 50%;
+}
+
+.git:after {
+  width: 50%;
 }
 
 section.dark {
@@ -407,9 +424,11 @@ section.dark .section-title::after {
   width: calc(50% - 20px);
   background-color: #fff;
   border: 1px solid #ddd;
+  border-radius: 5px;
   margin: 10px 0;
   padding: 30px;
   position: relative;
+  box-shadow: 5px 5px 5px 5px grey;
 }
 
 .block::before {
@@ -435,13 +454,14 @@ section.dark .section-title::after {
 }
 
 .block h3 {
-  font-size: 16px;
-  margin: 10px 0;
+  font-size: 20px;
+  margin: 5px 0;
 }
 
 .block p {
   font-size: 15px;
   color: #444;
+  margin: 5px 0;
 }
 
 .work {
